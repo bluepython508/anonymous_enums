@@ -1,0 +1,15 @@
+[package]
+name = "anonymous_enums"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anonymous_enums_proc_macro = {path = "anonymous_enums_proc_macro" }
+extend = "1.1.1"
+
+[workspace]
+members = [
+    "anonymous_enums_proc_macro"
+]
